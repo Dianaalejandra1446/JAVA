@@ -13,10 +13,10 @@ public class QueNotaNecesito {
         System.out.println("Ingrese nota laboratorio: ");
         int Nl = leer.nextInt();
         
-        double Nc = (c1 + c2 + 3 * (60 - 0.3 * Nl)) / 3;
+        double Nc =(c1 - c2) * 0.3;
 
-        double Nf = 0.7 * Nc + 0.3 * Nl;
+        double Nf = (Nc * 0.7) + (Nl* 0.3);
         
-        System.out.println("La nota necesaria en el tercer certamen es: " + ((60 - 0.7 * Nc) / 0.3));
+        System.out.println("La nota necesaria en el tercer certamen es: "  );
     }
 }
